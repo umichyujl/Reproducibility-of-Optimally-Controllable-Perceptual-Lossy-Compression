@@ -40,7 +40,7 @@ This is the final project for EECS 553, Fall 2022. Reproduced from https://githu
 1. Please download all the .py and .ipynb files.
 2. Open the **MNIST_code.ipynb** on Google Colab.
 3. The GPU is needed. Please change the runtime type to GPU first.
-4. To train different dataset, please change the dataset loaded by train_loader in **train.py** or **train_beta.py**.
+4. To train different dataset, please change the dataset loaded by `train_loader` in **train.py** or **train_beta.py**.
 5. Remember to change the file paths of generators into the right one before running **test.py**.
 
 
