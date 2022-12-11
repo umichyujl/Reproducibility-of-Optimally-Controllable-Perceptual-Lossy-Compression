@@ -31,4 +31,13 @@ This is the final project for EECS 553, Fall 2022.
 --ckpt_path "weight path for $E_d$ and $G_d$ " 
 --decoder "weight path for $G_p$ " `
 
+# MNIST experiments
+## Directory Tutorial
+1. Please download all the .py and .ipynb files.
+2. Open the **MNIST_code.ipynb** on Google Colab.
+3. The GPU is needed. Please change the runtime type to GPU first.
+4. To train different dataset, please change the dataset loaded by train_loader in **train.py** or **train_beta.py**.
+5. Remember to change the file paths of generators into the right one before running **test.py**.
+
+
 Reproduced from https://github.com/ZeyuYan/Controllable-Perceptual-Compression, made some modifications.
