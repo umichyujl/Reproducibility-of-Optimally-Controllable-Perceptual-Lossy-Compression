@@ -1,5 +1,5 @@
 # Reproducibility of Optimally Controllable Perceptual Lossy Compression
-This is the final project for EECS 553, Fall 2022. Reproduced from https://github.com/ZeyuYan/Controllable-Perceptual-Compression, made some modifications. All the experiments are carried out on Google Colab.
+This is the final project for EECS 553, Fall 2022. Reproduced from https://github.com/ZeyuYan/Controllable-Perceptual-Compression, made some modifications.
 
 # RGB experiments
 ## Directory introduction
@@ -34,7 +34,8 @@ This is the final project for EECS 553, Fall 2022. Reproduced from https://githu
 ## Directory Tutorial
 **train.py**: training dataset. \
 **test.py**: testing dataset and plotting figures with different $\alpha$. \
-**train_beta.py**: using for tuning $\beta$.
+**train_beta.py**: using for tuning $\beta$. \
+**data**: MNIST, Fashion-MNIST and EMNIST are pre-loaded dataset in Pytorch.
 
 1. Please download all the .py and .ipynb files.
 2. Open the **MNIST_code.ipynb** on Google Colab.
