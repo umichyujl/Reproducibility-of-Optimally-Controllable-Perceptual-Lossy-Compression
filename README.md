@@ -15,18 +15,18 @@ This is the final project for EECS 553, Fall 2022.
 
 ## training code
 ### Framework A
-`!python train_A.py --model_type compression_gan --name stage_A --regime low ` 
+`python train_A.py --model_type compression_gan --name stage_A --regime low ` 
 
 ### Framework B
 #### stage 1
-`!python train_A.py  --name stage_A --regime low ` 
+`python train_A.py  --name stage_A --regime low ` 
 
 #### stage 2
 `python train2.py --model_type compression_gan --regime low --warmstart -ckpt ./model/MMSE_model.pt`
 - ckpt: states the weight path for $E_d$ and $G_d$ 
 
 ## Testing code
-`!python3 compress2.py 
+`python3 compress2.py 
 --metrics --reconstruct 
 --ckpt_path "weight path for $E_d$ and $G_d$ " 
 --decoder "weight path for $G_p$ " `
