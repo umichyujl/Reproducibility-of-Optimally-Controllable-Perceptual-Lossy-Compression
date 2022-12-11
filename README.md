@@ -26,9 +26,9 @@ This is the final project for EECS 553, Fall 2022.
 - ckpt: states the weight path for $E_d$ and $G_d$ 
 
 ## Testing code
-`!python3 compress2.py \
---metrics --reconstruct \
---ckpt_path "weight path for $E_d$ and $G_d$ " \
+`!python3 compress2.py 
+--metrics --reconstruct 
+--ckpt_path "weight path for $E_d$ and $G_d$ " 
 --decoder "weight path for $G_p$ " `
 
 Reproduced from https://github.com/ZeyuYan/Controllable-Perceptual-Compression, made some modifications.
