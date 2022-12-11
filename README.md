@@ -7,7 +7,7 @@ This is the final project for EECS 553, Fall 2022. Reproduced from https://githu
 2. **main function**: contains all kinds of version of training files. As we trained many models with different hyperparameters, a few changes are made in each .py but most of it are the same. If you want to use the train.py, pay attention to the details.
 3. **experiments**: contains the weights files for ($E_d$ and $G_d$) for different models and the training info. [link](https://drive.google.com/drive/folders/130b0mzRc1Vy1M8HTzJkl6fcbxkRImcCA?usp=share_link)
 4. **data**: contains all the training dataset, testing dataset, and results images. [link](https://drive.google.com/drive/folders/13jtWoLJ3o2YSTddJ1JXVMpvhL83Z2XNu?usp=share_link)
-5. **ckpt**: contains the weights files for ($G_p$) for different models [link](https://drive.google.com/drive/folders/1-07_sWjMcXq_OOo2pODy3G-Sl7RQlEIz?usp=share_link)
+5. **ckpt**: contains the weights files for $G_p$ for different models [link](https://drive.google.com/drive/folders/1-07_sWjMcXq_OOo2pODy3G-Sl7RQlEIz?usp=share_link)
 6. **default_config.py**: hyperparameter settings
 7. **compress2.py**: to generate compressed image.
 9. **demo.ipynb**: basic training and testing process.
