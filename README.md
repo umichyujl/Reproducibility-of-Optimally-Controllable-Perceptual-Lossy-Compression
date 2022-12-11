@@ -27,8 +27,8 @@ This is the final project for EECS 553, Fall 2022. Reproduced from https://githu
 ## Testing code
 `python3 compress2.py 
 --metrics --reconstruct 
---ckpt_path "weight path for $E_d$ and $G_d$ " 
---decoder "weight path for $G_p$ " `
+--ckpt_path "/weight/path/for/Ed/and/Gd" 
+--decoder "/weight/path/for/Gp" `
 
 # MNIST experiments
 ## Directory Tutorial
