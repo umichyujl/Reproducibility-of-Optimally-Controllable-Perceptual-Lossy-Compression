@@ -1,5 +1,5 @@
 # Reproducibility of Optimally Controllable Perceptual Lossy Compression
-This is the final project for EECS 553, Fall 2022.
+This is the final project for EECS 553, Fall 2022. Reproduced from https://github.com/ZeyuYan/Controllable-Perceptual-Compression, made some modifications.
 
 # RGB experiments
 ## Directory introduction
@@ -44,4 +44,4 @@ This is the final project for EECS 553, Fall 2022.
 5. Remember to change the file paths of generators into the right one before running **test.py**.
 
 
-Reproduced from https://github.com/ZeyuYan/Controllable-Perceptual-Compression, made some modifications.
+
